@@ -1,0 +1,127 @@
+<style>
+        /* Basic Reset */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* General Styles */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #000;
+        }
+
+        header a {
+            color: blue;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+
+        header .branding {
+            float: left;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        /* Main Section Styles */
+        #main {
+            padding: 20px 0;
+        }
+
+        #main img {
+            width: 150px; /* Adjust as needed */
+            border-radius: 50%;
+            float: left;
+            margin-right: 20px;
+        }
+
+        #main h1 {
+            margin-bottom: 10px;
+        }
+
+        /* Sections Styles (Schools, Experience, Hobbies) */
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        .section ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+
+        /* Footer Styles */
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            header .branding,
+            header nav,
+            header nav li {
+                float: none;
+                text-align: center;
+            }
+
+            header nav li {
+                padding: 10px 0;
+            }
+
+            #main img {
+                float: none;
+                display: block;
+                margin: 0 auto 20px;
+            }
+        }
+    </style>
